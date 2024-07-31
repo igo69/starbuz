@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan='2'></th>
+            <th colspan='2'>Safra</th>
+            <th rowspan='2'>localização</th>
+        </tr>
+        <tr>
+            <th>Regiao</th>
+            <th>Estado</th>
+            <th>2016</th>
+            <th>2017</th>
+        </tr>
+        <tr>
+            <td rowspan="3">sul</td>
+            <td>rs</td>
+            <td>50000</td>
+            <td>80000</td>
+            <td class="img 1" rowspan="3"></td>
+        </tr>
+    </table>
+</body>
+<style>
+    *{
+        background-color: aliceblue;
+    }
+
+    table{
+        background-color: aliceblue;
+        width: 50vw;
+        height: 50vh;
+        margin: auto;
+        box-shadow: 0px 0px 100px  rgb(106, 188, 255);
+        transform: translateY(50%);
+    }
+    th,td{
+        border: 1px blue dashed;
+    }
+    .img1{
+        background-image: url(imgstabela/download.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+</html>
